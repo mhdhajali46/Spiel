@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahlen Raten</title>
+    <link rel="stylesheet" href="./spiel.css">
+    <script src="./spiel.js" ></script>
+</head>
+<body style="background: #c7c7c7; text-align: center;">
+    
+    <div class="game-window" onclick="startGuessNumbers();">
+        <h1 id="game-text1">Zahlen Raten</h1>
+        <p id="game-text2">Press Start</p>
+    </div>
+
+    <div class="input-container">
+        <form onsubmit="return checkInput();">
+            <input id="input" class="input-window" type="number" min="1" max="100" required>
+            <button type="submit">Rate</button>
+        </form>
+        
+    </div>
+
+</body>
+</html>

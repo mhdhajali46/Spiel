@@ -1,0 +1,37 @@
+.game-window {
+    width: 300px;
+    height: 150px;
+    background: lightgreen;
+    border: solid rgb(66, 66, 66) 10px;
+    border-radius: 7px;
+    border-style: outset;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.game-window:hover {
+    border-color: rgb(142, 142, 142);
+    cursor: pointer;
+}
+
+.input-container {
+    margin-top: 21px;
+}
+
+.input-window {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
